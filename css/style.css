@@ -4,7 +4,7 @@
   grid-gap: 0px;
 }
 .sidebar {
-  height: 100%;
+  height: 1080px;
   width: 319px;
   background-color: #222222;
 }
@@ -111,7 +111,7 @@ hr {
   color: #111111;
   opacity: 5%;
 }
-section {
+.section-container {
   max-width: 1231px;
   width: 100%;
   margin: 0 auto;
@@ -198,4 +198,87 @@ section {
   margin: 150px auto;
   display: flex;
   padding: 16px 108px 19px 105px;
+  margin-bottom: 137px;
+}
+.des-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+
+.profile-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile {
+  margin-left: 25px;
+  width: 132px;
+  display: flex;
+  flex-direction: column;
+}
+.profile-wrapper :first-child {
+  margin-left: 0;
+}
+.profile img {
+  margin-bottom: 15px;
+}
+.name {
+  margin-bottom: 10px;
+}
+.place {
+  margin-bottom: 17px;
+}
+.follow {
+  width: 132px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #d8d8d8;
+}
+.des-back {
+  background-color: #fafafa;
+  margin-top: -60px;
+}
+.following-button {
+  background-color: #f2f2f2;
+  border: none;
+  width: 132px;
+  height: 44px;
+  border-radius: 12px;
+}
+h5 {
+  margin-top: 129px;
+  margin-bottom: 36px;
+}
+h6 {
+  margin-top: 41px;
+  margin-bottom: 36px;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.footer-wrapper {
+  display: flex;
+}
+.for-designers {
+  margin-right: 172px;
+}
+.brand-wrapper {
+  margin-right: 149px;
+}
+.company {
+  margin-right: 149px;
+  margin-bottom: 72px;
+}
+.directories-wrapper {
+  margin-right: 202px;
+}
+.logo-icons img {
+  margin-right: 20px;
+}
+.logo-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
