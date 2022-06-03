@@ -40,3 +40,52 @@
     margin-right: 25px;
   }
 }
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .main {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 0px;
+  }
+  .upload {
+    margin-right: 0;
+  }
+  .des-title-wrapper {
+    margin-bottom: 0;
+  }
+  .profile-wrapper a {
+    margin-top: 54px;
+  }
+  .profile-wrapper,
+  .des-title-wrapper {
+    display: none;
+  }
+  .search {
+    transform: none;
+  }
+  .for-designers,
+  .brand-wrapper,
+  .company,
+  .directories-wrapper {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  ..company {
+    margin-right: 0;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-right: 25px;
+  }
+  .footer-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

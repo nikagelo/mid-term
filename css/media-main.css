@@ -49,3 +49,36 @@
     margin-right: 25px;
   }
 }
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .main {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 75px;
+  }
+  .articles {
+    max-width: 700px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+  }
+  .search {
+    width: 250px;
+    margin-left: 0;
+  }
+  #searching {
+    width: 200px;
+  }
+  .subjects {
+    display: none;
+  }
+  .filters {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
