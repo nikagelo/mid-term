@@ -41,4 +41,11 @@
   .directories-wrapper {
     margin-right: 35px;
   }
+  .hidden {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-right: 25px;
+  }
 }

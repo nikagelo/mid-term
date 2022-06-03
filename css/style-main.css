@@ -99,6 +99,12 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.burger {
+  display: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
 .icons {
   display: flex;
   flex-wrap: wrap;

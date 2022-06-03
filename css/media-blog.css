@@ -1,0 +1,42 @@
+@media (max-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+  .main {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 35px;
+  }
+  .upload {
+    margin-right: 0;
+  }
+  .des-title-wrapper {
+    margin-bottom: 0;
+  }
+  .profile-wrapper a {
+    margin-top: 54px;
+  }
+  .profile-wrapper,
+  .des-title-wrapper {
+    display: none;
+  }
+  .search {
+    transform: none;
+  }
+  .for-designers,
+  .brand-wrapper,
+  .company {
+    margin-right: 90px;
+  }
+  .directories-wrapper {
+    margin-right: 35px;
+  }
+  .hidden {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-right: 25px;
+  }
+}
