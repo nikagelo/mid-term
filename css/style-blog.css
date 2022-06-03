@@ -100,7 +100,19 @@ nav {
 }
 .icons a {
   margin-left: 20px;
+  position: relative;
 }
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: #ff2288;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .img-wrapper {
   display: flex;
   justify-content: center;
