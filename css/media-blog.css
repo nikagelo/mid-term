@@ -1,4 +1,7 @@
 @media (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
   .sidebar {
     display: none;
   }
@@ -6,7 +9,11 @@
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
-    margin-left: 35px;
+  }
+  .section-container {
+    max-width: 975px;
+    width: 100%;
+    margin: 0 auto;
   }
   .upload {
     margin-right: 0;
@@ -73,7 +80,7 @@
     margin: 0 auto;
     font-size: 12px;
   }
-  ..company {
+  .company {
     margin-right: 0;
   }
 
@@ -87,5 +94,69 @@
   .footer-wrapper {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+  .main {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 0px;
+  }
+  nav {
+    justify-content: center;
+  }
+  .upload {
+    display: none;
+    margin-right: 0;
+  }
+  .des-title-wrapper {
+    margin-bottom: 0;
+  }
+  .profile-wrapper a {
+    margin-top: 54px;
+  }
+  .profile-wrapper,
+  .des-title-wrapper {
+    display: none;
+  }
+  .search {
+    transform: none;
+    display: none;
+  }
+  .for-designers,
+  .brand-wrapper,
+  .company,
+  .directories-wrapper {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .hidden {
+    display: none;
+  }
+  .burger {
+    display: block;
+    margin-right: 25px;
+  }
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hid {
+    display: none;
+  }
+
+  .table {
+    display: block;
+    background-color: #f2f2f2;
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
   }
 }
