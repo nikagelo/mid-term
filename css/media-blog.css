@@ -159,4 +159,7 @@
     border-radius: 12px;
     padding: 10px;
   }
+  .logo-wrapper {
+    justify-content: space-around;
+  }
 }

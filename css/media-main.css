@@ -81,4 +81,36 @@
     display: flex;
     justify-content: center;
   }
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .footer-wrapper div {
+    margin-right: unset;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .burger {
+    display: block;
+    margin-right: 25px;
+  }
+  .search {
+    display: none;
+  }
+  .upload {
+    display: none;
+  }
+  .articles,
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    justify-content: center;
+  }
+  .articles div {
+    margin: 50px auto;
+  }
 }
