@@ -1,3 +1,14 @@
+@media (max-width: 1919px) {
+  .sidebar {
+    display: none;
+  }
+  .main {
+    margin: 0 auto;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 1024px) {
   .wrapper {
     grid-template-columns: 1fr;
@@ -46,6 +57,17 @@
     display: block;
     margin-right: 25px;
   }
+  .footer-wrapper {
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .logo-wrapper {
+    justify-content: space-around;
+  }
+  h5 {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 768px) {
   .sidebar {
@@ -80,9 +102,6 @@
     margin: 0 auto;
     font-size: 12px;
   }
-  .company {
-    margin-right: 0;
-  }
 
   .hidden {
     display: none;
@@ -94,6 +113,14 @@
   .footer-wrapper {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .icons {
+    margin-top: 20px;
   }
 }
 @media (max-width: 480px) {
@@ -144,7 +171,7 @@
   }
   .footer-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .hid {
     display: none;
@@ -161,5 +188,19 @@
   }
   .logo-wrapper {
     justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .icons {
+    justify-content: center;
+  }
+  hr {
+    display: none;
+  }
+  h5 {
+    margin-top: 50px;
+  }
+  .table {
+    margin-top: 20px;
   }
 }

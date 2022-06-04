@@ -1,3 +1,14 @@
+@media (max-width: 1919px) {
+  .sidebar {
+    display: none;
+  }
+  .main {
+    margin: 0 auto;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 1024px) {
   .sidebar {
     display: none;
@@ -6,16 +17,15 @@
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
-    margin-left: 35px;
   }
   .articles {
     max-width: 1000px;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin-top: 0;
   }
   .articles div {
-    margin-top: 50px;
+    margin: 50px auto;
   }
   .upload {
     margin-right: 0;
@@ -31,22 +41,39 @@
     display: none;
   }
   .search {
-    transform: none;
+    display: none;
   }
   .for-designers,
   .brand-wrapper,
-  .company {
-    margin-right: 90px;
-  }
+  .company,
   .directories-wrapper {
-    margin-right: 35px;
+    margin-right: unset;
+    margin: 0 auto;
   }
+
   .hidden {
     display: none;
   }
   .burger {
     display: block;
     margin-right: 25px;
+  }
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  nav {
+    justify-content: center;
+  }
+  .subjects-wrapper div {
+    display: none;
+  }
+  .subjects-wrapper {
+    justify-content: center;
+  }
+  .logo-wrapper {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 768px) {
@@ -57,13 +84,12 @@
     max-width: 768px;
     width: 100%;
     margin: 0 auto;
-    margin-left: 75px;
   }
   .articles {
     max-width: 700px;
     width: 100%;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 0;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
   }
   .search {
     width: 250px;
@@ -92,6 +118,13 @@
   }
 }
 @media (max-width: 480px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  .main {
+    max-width: 480px;
+    margin: 0 auto;
+  }
   .burger {
     display: block;
     margin-right: 25px;
@@ -112,5 +145,20 @@
   }
   .articles div {
     margin: 50px auto;
+  }
+  .more {
+    padding: unset;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .logo-wrapper {
+    flex-direction: column;
+  }
+  .logo-icons {
+    margin-bottom: 20px;
+  }
+  .span {
+    font-size: 16px;
   }
 }
